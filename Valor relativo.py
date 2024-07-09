@@ -4,7 +4,7 @@ c=0
 lista=[]
 R1=""
 while f>=0:
-	lista.append(int(n[f])10*c)
+	lista.append(int(n[f])*(10**c))
 	lista.append("+")
 	f=f-1
 	c=c+1
